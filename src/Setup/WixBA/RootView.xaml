@@ -38,7 +38,7 @@
 
             <!-- Title -->
             <Button Grid.Row="0" Grid.ColumnSpan="2" Background="#FFCB0000" DataContext="{Binding InstallationViewModel}" Command="{Binding LaunchHomePageCommand}"/>
-            <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource StatusTextStyle}" DataContext="{Binding InstallationViewModel}">WiX Toolset</TextBlock>
+            <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource StatusTextStyle}" DataContext="{Binding InstallationViewModel}">Toolset</TextBlock>
             <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource StatusTextStyle}" HorizontalAlignment="Right" DataContext="{Binding InstallationViewModel}" Text="{Binding Version}"/>
             <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60" Foreground="White" IsHitTestVisible="False">WiX</TextBlock>
 
